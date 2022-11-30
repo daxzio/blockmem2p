@@ -30,10 +30,10 @@ module dut (
         
     
     blockmem2p 
-    #(
-        .G_MEMWIDTH  (G_MEMWIDTH),
-        .G_MEMDEPTH  (G_MEMDEPTH)
-    )    
+    //#(
+    //    .G_MEMWIDTH  (G_MEMWIDTH),
+    //    .G_MEMDEPTH  (G_MEMDEPTH)
+    //)    
     i_blockmem_2p (
         .*
     );
