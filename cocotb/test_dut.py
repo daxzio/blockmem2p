@@ -1,7 +1,7 @@
 import cocotb
 from cocotb.clock import Clock
 from cocotb.triggers import RisingEdge
-from cocotbext.uart import Mem2PDriver
+from Mem2PDriver import Mem2PDriver
 
 
 class testbench:
