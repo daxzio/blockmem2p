@@ -1,0 +1,11 @@
+__pycache__/
+sim_build/
+.Xil/ 
+results.xml
+*.vcd
+*.trn
+*.dsn
+core*
+vivado*
+myhdl/*.v
+myhdl/*.vhd
