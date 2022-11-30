@@ -36,7 +36,7 @@ def tb_blockmem2p():
         depth,
     )
 
-    module.convert(hdl='VHDL')
+    #module.convert(hdl='VHDL')
     module.convert(hdl='Verilog', initial_values=True)
  
     return module 
