@@ -14,18 +14,13 @@ def blockmem2p(
     depth=32,
 ):
 
-    #mem2p.verilog_code = \
-   # """
-#(* ram_style = "block" *)
-    #"""    
+    blockmem2p.verilog_code = \
+    """
+(* ram_style = "block" *)
+    """    
 
     f_doutb    = [Signal(intbv(0)[len(dina):]) for i in range(depth)]   
 
-    #mem2p.vhdl_code = \
-    #"""
-    #attribute ram_style : string;
-    #attribute ram_style of $f_doutb : signal is "block";
-    #"""
 
     @always(clka.posedge)
     def write():
